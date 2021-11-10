@@ -12,8 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     position: fixed;
-    bottom: 6rem;
-    right: 2.5rem;
+    top: 2rem;
+    right: 2rem;
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
@@ -26,7 +26,7 @@ a{
 }
 .title{
     font-size: 3rem;
-    padding: 3rem;
+    padding: 3rem 0 0 0;
     text-align: center;
     font-family: 'Mochiy Pop One', sans-serif;
 }
@@ -34,7 +34,7 @@ a{
 .nameblock{
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .item{
