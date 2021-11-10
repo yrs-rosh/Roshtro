@@ -20,29 +20,37 @@
         <div class="pic" id="pic"></div>
 
 
-        <div class="nameblock">
-            <div class="col-3 item justify-content-center">
-                <div id="yourname name">Your Name</div>
-                <input class="name" type="text" id="yname" name="name" />
+
+        <form>
+            <div class="nameblock">
+                <div class="col-3 item justify-content-center">
+                    <div id="yourname name">Your Name</div>
+                    <input class="name" type="text" id="yname"  name="name" required>
+                </div>
+                <div class="col-3 item heart">
+                    <img src="heart.png" alt="heart" width="50px" height="50px">
+                </div>
+                <div class="col-3 item justify-content-center">
+                    <div id="partnername maew">Your Partner's Name</div>
+                    <input class="name" type="text" id="pname"  name="name" required>
+                </div>
             </div>
-            <div class="col-3 item heart">
-                <img src="heart.png" alt="heart" width="50px" height="50px">
+            <div class="container" id="check">
+    
+                <div class="result">
+                    <div id="percentage"></div>
+                </div>
+                <div class="result">
+                    <div id="comp"></div>
+                </div>
+                
+    
+                <div class="col-md-12 text-center">
+                    <button type="button" class="btn btn-danger" id="uncheck" onclick="getInputValue();">check</button>
+                </div>
             </div>
-            <div class="col-3 item justify-content-center">
-                <div id="partnername maew">Your Partner's Name</div>
-                <input class="name" type="text" id="pname" name="name" />
-            </div>
-        </div>
-        <div class="container" id="check">
-            <div class="col-md-12 text-center">
-                <button type="button" class="btn btn-danger" onclick="getInputValue();">check</button>
-            </div>
-        </div>
-        
-        <div class="result">
-            <div id="percentage"></div>
-            <div id="comp"></div>
-        </div>
+
+        </form>
         
     </main>
     
@@ -50,11 +58,11 @@
 <footer class="page-footer font-small pt-4 foot">
   
     <!-- Copyright -->
-    <div class="roshtro text-center">Roshtro or Astro by Rosh...For personal assistance
-        <a href="https://www.instagram.com/yrs_rosh/"><i class="fab fa-instagram"></i></a>
+    <div class="roshtro text-center">Astrology by Rosh...  For personal assistance DM me on 
+        <a href="https://www.instagram.com/yrs_rosh/" target="blank"><i class="fab fa-instagram"></i></a>
     </div>
     <div class=" text-center py-3 ">Made with <i class="fas fa-heart"></i> by
-      <a href="https://github.com/yrs-rosh/"> @yrs-rosh</a>
+      <a href="https://github.com/yrs-rosh/" target="blank"> @yrs_rosh</a>
     </div>
     <!-- Copyright -->
   
