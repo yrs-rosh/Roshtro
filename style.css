@@ -6,14 +6,16 @@ body{
 
 .title{
     font-size: 3rem;
+    padding: 3rem;
     text-align: center;
 }
 
 .nameblock{
     display: flex;
-    justify-content: space-around;
-    margin: 5rem 10rem;
+    justify-content: space-evenly;
+    padding: 6rem 0;
 }
+
 .item{
     display: grid;
     justify-content: center;
@@ -37,6 +39,11 @@ footer {
 .foot{
     color: antiquewhite;
 }
-@media screen  {
-    
+@media only screen and (max-width: 768px) {
+    .nameblock{
+        display: grid;
+        justify-content: space-evenly;
+        padding: 3rem 6rem;
+        margin: 0 0 0 10rem;
+    }
 }
