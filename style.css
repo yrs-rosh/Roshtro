@@ -1,0 +1,42 @@
+body{
+    background-image: url(bg.jpg);
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.nameblock{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 10rem;
+}
+.item{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #232323;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot{
+    color: antiquewhite;
+}
+@media screen  {
+    
+}
