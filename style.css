@@ -5,7 +5,25 @@ body{
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+.tnc{
+    z-index: 100000;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #000;
+}
 
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
 .title{
     font-size: 3rem;
     padding: 3rem;
@@ -46,18 +64,21 @@ body{
 }
 
 #comp{
+    color: azure;
     width: fit-content;
-    background-color: #FF69B4;
+    background-color: red;
     border-radius: 10pxs;
     display: inline-block;
     text-align: center;
     font-size: 2rem;
 }
 
+
 footer {
+    font-size: .8rem;
     background-color: #232323;
     position: fixed;
-    height: 100px;
+    height: 5rem;
     bottom: 0;
     width: 100%;
 }
