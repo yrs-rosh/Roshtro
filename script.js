@@ -15,7 +15,7 @@ function getInputValue(){
     alert(`${yourName} are you ready for result`);
     document.getElementById('percentage').innerHTML = `${per}%`;
     if(per>90){
-        document.getElementById("comp").innerHTML = `Wow! that'a a perfect match${yourName} and ${partnerName}, You both are made for each other. 😘`;
+        document.getElementById("comp").innerHTML = `Wow! that's a perfect match${yourName} and ${partnerName}, You both are made for each other. 😘`;
     }else if(per>80){
         document.getElementById("comp").innerHTML = `${yourName} and ${partnerName} can be a perfect couple. 😍`;
     }else if(per>60){
