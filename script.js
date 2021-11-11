@@ -2,7 +2,7 @@ const person = prompt("Hii, this is Rosh. Tell me your name first");
 
 if (person != null) {
   document.getElementById("comp").innerHTML =
-  "Hey " + person + ". Enter your name and your partner's name";
+  "&nbsp &nbsp Hey " + person + ". Enter your name and your partner's name &nbsp";
 }
 
 
