@@ -5,17 +5,18 @@ body{
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+
 .tnc{
     z-index: 100000;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 2rem;
-    right: 2rem;
-    height: 4rem;
-    width: 4rem;
+    top: 1rem;
+    right: 1rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     background-color: #000;
 }
@@ -26,7 +27,7 @@ a{
 }
 .title{
     font-size: 3rem;
-    padding: 3rem 0 0 0;
+    padding: 1.5rem 0 0 0;
     text-align: center;
     font-family: 'Mochiy Pop One', sans-serif;
 }
@@ -73,7 +74,9 @@ a{
     font-size: 2rem;
 }
 
-
+#check{
+    margin-bottom: 10rem;
+}
 footer {
     font-size: .8rem;
     background-color: #232323;
