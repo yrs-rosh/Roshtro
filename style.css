@@ -21,6 +21,11 @@ body{
     background-color: #000;
 }
 
+.connect{
+    top: 1rem;
+    left: 1rem;
+}
+
 a{
     text-decoration: none;
     color: aliceblue;
